@@ -1,0 +1,43 @@
+// mixins and helpers
+@import "compass/css3";
+@import "compass/css3/background-size";
+@import "compass/css3/background-clip";
+@import "compass/css3/border-radius";
+@import "compass/css3/images";
+@import "compass/css3/opacity";
+@import "compass/utilities/general/clearfix";
+@import "compass/support";
+
+//imports scss
+@import "compass/reset";
+
+// border box model.
+* {
+  @include box-sizing(border-box);
+}
+
+body > div {
+  text-align: center;
+  color: white;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #E0E4CC;
+}
+
+.content {
+  background-color: #89D9D1;
+  border: 20px solid #164F73;
+  color: #222;
+  position: absolute;
+  width: 400px;
+  height: 124px;
+  margin: -62px 0 0 -200px;
+  top: 50%;
+  left: 50%;
+}
