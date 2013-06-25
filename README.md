@@ -28,8 +28,7 @@ Part 1 is asking you to fix a common layout problem with floats and scrolling.  
 Fix the following problems.
 1. Form wrapper not following inner content height (You should not set a fixed height)
 2. Main content does not scroll
-3. Extra Credit:
-    - Fix the problem with labels and captions wrapping
+3. Extra Credit: Fix the problem with labels and captions wrapping
 
 ### Before
 ![part 1 what to fix](https://raw.github.com/markyoung/interview_questions/master/readme-images/1-1.png)
