@@ -1,50 +1,79 @@
-CSS Quick Test
+CSS Quick Assessment
 =============
-A quick test of very basic css and javascript skills.  Used in initial interview for web design candidates.
+A quick test of basic CSS and jQuery skills.  Used in initial interview for web design candidates.
 
 Preface:
 -------------------------------
 
 ### Expectations
-For this test you may write plain CSS or use SCSS (with Compass CSS).  Each part should work the same in Firefox and Chrome.  You may use any of the listed resources as well as Google for CSS and jQuery reference.
+You are given up to 40mins to complete this assessment by writing CSS or SCSS for Parts 1-2 and javascript for Part 3.  The questions will ask to you fix a common layout bug with CSS floats, create a CSS layout from scratch, and add a simple jQuery UI Button and Dialog to an existing page.  For each of these questions you should not modify index.html.  Test your work in the latest Firefox and Chrome.  You may use any of the listed resources as well as Google for CSS and jQuery reference.
 
 ### Process
-Clone this repo into the apache directory (ex. /xampp/htdocs).  This will allow you to navigate with your browser to [http://localhost/interview_questions].  With a text editor edit the necessary files (sass/main.scss[or css/main.css] for Parts 1 and 2; js/base.js for Part 3).  Test you work in Firefox and Chrome and make sure that there are no errors.
+- Clone this repo into the apache directory (ex. /xampp/htdocs)
+- Point your browser to [http://localhost/interview_questions]
+- Edit the questions files
+    - Part 1-2
+        - CSS (QUESTIONDIR/css/main.css) or SCSS (QUESTIONDIR/scss/main.scss)
+        - If using SCSS remember to start the compiler running `compass watch` from the question directory
+    - Part 3
+        - Edit the base.js file (QUESTIONDIR/js/base.js)
+- Verify fixed in Firefox and Chrome.  Check for any javascript errors in the javascript console.
+- Come and find me after you are finished
 
 
 [Part 1: Fix the "-flow":](http://localhost/interview_questions/1-fixlayout)
 -------------------------------
-Fix the existing bugs by editing the css/scss file (sass/main.scss, css/main.css).
+Part 1 is asking you to fix a common layout problem with floats and scrolling.  Edit the CSS/SCSS file to fix the issue.
 
 Fix the following problems.
 1. Form wrapper not following inner content height (You should not set a fixed height)
-2. Labels and captions not wrapping long words without spaces
-3. Main content does not scroll
+2. Main content does not scroll
+3. Extra Credit:
+    - Fix the problem with labels and captions wrapping
+
+### Before
+![part 1 what to fix](https://raw.github.com/markyoung/interview_questions/master/readme-images/1-1.png)
+### After
+![part 1 what it should look like](https://raw.github.com/markyoung/interview_questions/master/readme-images/1-2.png)
 
 [Part 2: Simple Layout:](http://localhost/interview_questions/2-simplelayout)
 -------------------------------
+Part 2 is asking you to create a layout from scratch.  Start by not including the borders and enhance with borders for extra credit.
 Follow the example description and screenshot and create the layout editing the css/scss file (sass/main.scss, css/main.css).
 
 1. Start with the base layout without borders.
     - Header/Footer: height 20%, width 100%, solid colored background #3B8686
     - Sidebars: one left and the other right positioned, fill center area height, width 20%, solid colored background #79BD9A
-    - Content: fill center area height, width 20%, solid colored background #79BD9A
+    - Content: fill center area height, width 20%, solid colored background #CFF09E
 2. Extra Credit: enhance with borders.
     - Header/Footer: 10px border with #0B486B
     - Sidebars: 5px border with #3B8686
-    - Content: 5px border with #3B8686
+    - Content: 5px border with #79BD9A
+
+### Before
+![part 2 before](https://raw.github.com/markyoung/interview_questions/master/readme-images/2-1.png)
+### After
+![part 2 after](https://raw.github.com/markyoung/interview_questions/master/readme-images/2-2.png)
 
 [Part 3: jQuery UI button with dialog:](http://localhost/interview_questions/3-jquerybuttondialog)
 -------------------------------
 Modify js/base.js to do the following.
 
-1. Both button elements jQuery UI buttons.
-2. Clicking the first button creates a blank jQuery UI Dialog.
+1. Initialize all button elements as jQuery UI buttons.
+2. For the first button only create a click event that creates a blank jQuery UI Dialog.
 3. Extra Credit:
     - The title of the dialog "I am the dialog"
     - The content should say "I am the content"
-    - Buttons titled "Thanks" and "No Thanks"
+    - Dialog buttons titled "Thanks" and "No Thanks"
+    - Dialog buttons should destroy the dialog
 
+
+### Before
+![part 3 before](https://raw.github.com/markyoung/interview_questions/master/readme-images/3-1.png)
+### Add jQuery UI Buttons
+![part 3 buttons](https://raw.github.com/markyoung/interview_questions/master/readme-images/3-2.png)
+### Add the dialog for the first button
+![part 3 dialog](https://raw.github.com/markyoung/interview_questions/master/readme-images/3-3.png)
 
 
 Resources:
