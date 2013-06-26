@@ -42,7 +42,7 @@ Follow the example description and screenshot and create the layout editing the 
 1. Start with the base layout without borders.
     - Header/Footer: height 20%, width 100%, solid colored background #3B8686
     - Sidebars: one left and the other right positioned, fill center area height, width 20%, solid colored background #79BD9A
-    - Content: fill center area height, width 20%, solid colored background #CFF09E
+    - Content: fill center area height, solid colored background #CFF09E
 2. Extra Credit: enhance with borders.
     - Header/Footer: 10px border with #0B486B
     - Sidebars: 5px border with #3B8686
