@@ -6,11 +6,11 @@ Preface:
 -------------------------------
 
 ### Expectations
-You are given up to 40mins to complete this assessment by writing CSS or SCSS for Parts 1-2 and javascript for Part 3.  The questions will ask to you fix a common layout bug with CSS floats, create a CSS layout from scratch, and add a simple jQuery UI Button and Dialog to an existing page.  For each of these questions you should not modify index.html.  Test your work in the latest Firefox and Chrome.  You may use any of the listed resources as well as Google for CSS and jQuery reference.
+You are given up to 1hr to complete this assessment by writing CSS or SCSS for Parts 1-2 and javascript for Part 3.  The questions will ask to you fix a common layout bug with CSS floats, create a CSS layout from scratch, and add a simple jQuery UI Button and Dialog to an existing page.  For each of these questions you should not modify index.html but you may modify if you are stuck.  Test your work in the latest Firefox and Chrome.  You may use any of the listed resources as well as Google for CSS and jQuery reference.
 
 ### Process
-- Clone this repo into the apache directory (ex. /xampp/htdocs)
-- Point your browser to [http://localhost/interview_questions]
+- Clone this repo into the apache directory (ex. /xampp/htdocs).  Also works without apache by opening the file in a browser.
+- Point your browser to [http://localhost/interview_questions] or open the file directly in the browser.
 - Edit the questions files
     - Part 1-2
         - CSS (QUESTIONDIR/css/main.css) or SCSS (QUESTIONDIR/scss/main.scss)
@@ -23,7 +23,7 @@ You are given up to 40mins to complete this assessment by writing CSS or SCSS fo
 
 [Part 1: Fix the "-flow":](http://localhost/interview_questions/1-fixlayout)
 -------------------------------
-Part 1 is asking you to fix a common layout problem with floats and scrolling.  Edit the CSS/SCSS file to fix the issue.
+Part 1 is asking you to fix a common layout problem with clearing floats, scrolling, and text wrapping.  Edit the CSS/SCSS file to fix the issue.
 
 1. Form wrapper not following inner content height (You should not set a fixed height)
 2. Main content does not scroll
@@ -36,8 +36,8 @@ Part 1 is asking you to fix a common layout problem with floats and scrolling.  
 
 [Part 2: Simple Layout:](http://localhost/interview_questions/2-simplelayout)
 -------------------------------
-Part 2 is asking you to create a layout from scratch.  Start by not including the borders and enhance with borders for extra credit.
-Follow the example description and screenshot and create the layout editing the css/scss file (sass/main.scss, css/main.css).
+Part 2 is asking you to create a layout from scratch.  Start by without including the borders and enhance with borders for extra credit.  Follow the example description and screenshot and create the layout editing the css/scss file (sass/main.scss, css/main.css).  [Note: Borders will throw off the box model calculations so you will need to figure out a way around that (there are a few ways and anything css3 is fair game)].
+
 
 1. Start with the base layout without borders.
     - Header/Footer: height 20%, width 100%, solid colored background #3B8686
@@ -58,7 +58,7 @@ Follow the example description and screenshot and create the layout editing the 
 Modify js/base.js to do the following.
 
 1. Initialize all button elements as jQuery UI buttons.
-2. For the first button only create a click event that creates a blank jQuery UI Dialog.
+2. For the first button only create a click event that creates a jQuery UI Dialog from the #dialog element.
 3. Extra Credit:
     - The title of the dialog "I am the dialog"
     - The content should say "I am the content"
