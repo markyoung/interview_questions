@@ -67,15 +67,13 @@ Modify js/base.js to do the following.
 
 [Part 4: Style Existing Content:](http://localhost/interview_questions/3-style-existing-content)
 -------------------------------
-Modify CSS/SCSS to style this basic blog layout.  This is a free form exercise.
+Modify CSS/SCSS to style this basic blog layout.  Show that you can style the existing HTML into something presentable.
 
-1. Initialize all button elements as jQuery UI buttons.
-2. For the first button only create a click event that creates a jQuery UI Dialog from the #dialog element.
-3. Extra Credit:
-    - The title of the dialog "I am the dialog"
-    - The content should say "I am the content"
-    - Dialog buttons titled "Thanks" and "No Thanks"
-    - Dialog buttons should destroy the dialog
+
+### Before
+![part 4 before](https://raw.github.com/markyoung/interview_questions/master/readme-images/4-1.png)
+### After
+![part 4 after](https://raw.github.com/markyoung/interview_questions/master/readme-images/4-2.png)
 
 
 Resources:
