@@ -6,7 +6,7 @@ Preface:
 -------------------------------
 
 ### Expectations
-You are given up to 1hr to complete this assessment by writing CSS or SCSS for Parts 1-2 and javascript for Part 3.  The questions will ask to you fix a common layout bug with CSS floats, create a CSS layout from scratch, and add a simple jQuery UI Button and Dialog to an existing page.  For each of these questions you should not modify index.html but you may modify if you are stuck.  Test your work in the latest Firefox and Chrome.  You may use any of the listed resources as well as Google for CSS and jQuery reference.
+Complete this assessment by writing CSS or SCSS for Parts 1-2 and javascript for Part 3.  The questions will ask to you fix a common layout bug with CSS floats, create a CSS layout from scratch, and add a simple jQuery UI Button and Dialog to an existing page.  For each of these questions you should not modify index.html but you may modify if you are stuck.  Test your work in Chrome.  You may use any of the listed resources as well as Google for CSS and jQuery reference.
 
 ### Process
 - Clone this repo into the apache directory (ex. /xampp/htdocs).  Also works without apache by opening the file in a browser.
@@ -36,7 +36,7 @@ Part 1 is asking you to fix a common layout problem with clearing floats, scroll
 
 [Part 2: Simple Layout:](http://localhost/interview_questions/2-simplelayout)
 -------------------------------
-Part 2 is asking you to create a layout from scratch.  Start by without including the borders and enhance with borders for extra credit.  Follow the example description and screenshot and create the layout editing the css/scss file (sass/main.scss, css/main.css).  [Note: Borders will throw off the box model calculations so you will need to figure out a way around that (there are a few ways and anything css3 is fair game)].
+Part 2 is asking you to create a layout from scratch.  Do part 1 without including the borders and enhance with borders for extra credit.  Follow the example description and screenshot and create the layout editing the css/scss file (sass/main.scss, css/main.css).  [Note: Borders will throw off the box model calculations so you will need to figure out a way around that (there are a few ways and anything css3 is fair game)].
 
 
 1. Start with the base layout without borders.
@@ -76,7 +76,7 @@ Modify js/base.js to do the following.
 
 Resources:
 -------------------------------
-Feel free to search google or checkout any of the resources.
+Feel free to search Google or checkout any of these resources.
 - [jQuery API](http://api.jquery.com/)
 - [jQuery UI Demos](http://jqueryui.com/demos/)
 - [jQuery UI API](http://api.jqueryui.com/)
