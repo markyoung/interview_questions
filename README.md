@@ -72,7 +72,7 @@ Modify CSS/SCSS to style this basic blog layout.  Show that you can style the ex
 
 ### Before
 ![part 4 before](https://raw.github.com/markyoung/interview_questions/master/readme-images/4-1.png)
-### After
+### After should look something like this.  Use your own imagination!
 ![part 4 after](https://raw.github.com/markyoung/interview_questions/master/readme-images/4-2.png)
 
 
